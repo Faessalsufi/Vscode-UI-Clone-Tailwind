@@ -9,10 +9,12 @@
 </head>
 
 <body class="box-border m-0 p-0">
-    <div class="">
+    <div class=" ">
+
         <!-- Navbar -->
 
-        <nav class="flex bg-[#2C2C32] sticky top-0 h-10 items-center justify-evenly ">
+        <nav class="flex bg-[#2C2C32] sticky top-0 h-10 items-center justify-evenly z-[1]     ">
+
             <a class="flex text-[#BCBCBE]" href="https://code.visualstudio.com/">
                 <img class="h-6 mr-3" src="assets/logo.png" alt="logo">
                 <span class="font-medium text-lg text-[#FFFFFF]">Visual Studio Code</span>
@@ -27,6 +29,8 @@
                 <li class="mr-6">FAQ</li>
                 <li class="mr-6">Learn</li>
             </ul>
+
+
             <div class="flex h-full">
                 <div class="mr-0 h-full flex">
                     <button class="absolute top-3">
@@ -48,6 +52,7 @@
         </nav>
 
         <!-- Main Section -->
+
         <!-- Update Notice -->
         <section class="flex bg-[#25252B] text-[#CCCCCC] h-[2.4rem] justify-center items-center">
 
@@ -59,7 +64,7 @@
         </section>
 
         <!-- Hero section -->
-        <main class="flex bg-[#2C2C32] justify-center h-[90vh]">
+        <main class="flex bg-[#2C2C32] justify-center h-[40.8rem]">
 
 
             <!-- Left section -->
@@ -103,6 +108,267 @@
 
             </div>
         </main>
+
+        <!-- Actions -->
+
+        <div class="action flex justify-center gap-[6rem]">
+            <!-- IntelliSence -->
+            <a class="     flex justify-center w-[12rem] hover:bg-[#E3E3E3] text-[1.2rem]"
+                href="https://code.visualstudio.com/#meet-intellisense">
+                <div>
+                    <img class="h-[5rem] block m-auto" src="assets/intellisence-icon.png" alt="intelliSence-icon">
+                    IntelliSence
+                </div>
+            </a>
+
+            <!-- Run and Debug -->
+            <a class="  flex justify-center w-[12rem] hover:bg-[#E3E3E3] text-[1.2rem]"
+                href="https://code.visualstudio.com/#powerful-debugging">
+                <div>
+                    <img class="h-[5rem] block m-auto" src="assets/run-debug-icon.png" alt="run-debug-icon">
+                    Run and Debug
+                </div>
+            </a>
+            <!-- Build-in Git -->
+            <a class="  flex justify-center w-[12rem] hover:bg-[#E3E3E3] text-[1.2rem]"
+                href="https://code.visualstudio.com/#built-in-git">
+                <div>
+                    <img class="h-[5rem] block m-auto" src="assets/git-icon.png" alt="git-icon">
+                    Build-in Git
+                </div>
+            </a>
+
+            <!-- Extensions -->
+            <a class="  flex justify-center w-[12rem] hover:bg-[#E3E3E3]  text-[1.2rem]"
+                href="https://code.visualstudio.com/#hundreds-of-extensions">
+                <div>
+                    <img class="h-[5rem] block m-auto" src="assets/extensions-icon.png" alt="extensions-icon">
+                    Extensions
+                </div>
+            </a>
+
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials flex justify-center bg-[#F5F5F5] gap-[1rem] h-[21rem] items-center">
+
+
+            <div class="arrow">
+                <img class="h-[2rem]" src="assets/left-arrow.png" alt="left-arrow">
+            </div>
+            <div class="w-[24rem] flex">
+                <img class="h-[3rem] rounded-full" src="assets/elon-musk.jpg " alt="elon-musk">
+                <div class="text"> <span>
+                        <strong>Una Kravets</strong>
+                        <small>@Una</small> </span>
+                    <p class="w-[14.6rem]">VS @code does so many things right. I’m constantly impressed by the UX, and
+                        customizing workspace
+                        /
+                        user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️ </p>
+                </div>
+            </div>
+
+            <div class="w-[24rem] flex">
+
+                <img class="h-[3rem] rounded-full" src="assets/jeff.jpg " alt="jeff">
+                <div class="text"><span>
+                        <strong>Jonathan Dunlap</strong>
+                        <small>@jadbox</small>
+
+
+                    </span>
+                    <p class="w-[14.6rem]">VS Code will have deep remote development. You can connect to a container
+                        running a different
+                        OS and
+                        use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥 </p>
+                </div>
+
+            </div>
+
+            <div class="w-[18rem] flex">
+
+                <img class="h-[3rem] rounded-full" src="assets/Bill_Gates.jpg " alt="Bill_Gates">
+
+                <div class="text"><span>
+                        <strong>Pavithra Kodmad</strong>
+                        <small>@PKodmad</small>
+                    </span>
+                    <p class="w-[14.6rem]">VS Code is my most used and favorite editor. I love being able to customize
+                        the editor - changing
+                        the
+                        layout, the icons, fonts and color scheme is so easy! </p>
+                </div>
+            </div>
+
+            <div class="arrow">
+                <img class="h-[2rem]" src="assets/right-arrow.png" alt="left-arrow">
+            </div>
+        </div>
+
+
+        <!-- Information -->
+
+        <!-- IntelliSense -->
+
+        <div class="intellisense flex justify-center h-[24rem] items-center gap-[10rem]">
+            <!-- left section -->
+            <div class="left"> <img src="assets/home-intellisense.svg" alt="home-intellisense"> </div>
+
+            <!-- right section -->
+            <div class="info gap-[2rem] flex flex-col">
+                <h2 class="text-[2rem] font-thin ml-[3.1rem]">Meet IntelliSense.</h2>
+                <p class="w-[36rem] text-[1.2rem] font-normal ml-[3.1rem] leading-[2]">Go beyond syntax highlighting and
+                    autocomplete
+                    with
+                    IntelliSense,
+                    which provides
+                    smart completions
+                    based on variable types, function definitions, and imported modules.</p>
+            </div>
+        </div>
+
+        <!-- Run & debug -->
+
+        <div class="run-debug flex justify-center h-[24rem] items-center gap-[10rem] bg-[#F5F5F5]">
+            <!-- left section -->
+            <div class="info gap-[2rem] flex flex-col">
+                <h2 class="text-[2rem] font-thin ml-[3.1rem]">Print statement debugging is a thing of the past.</h2>
+                <p class="w-[36rem] text-[1.2rem] font-normal ml-[3.1rem] leading-[2]">Debug code right from the editor.
+                    Launch or attach to your running apps and debug with break points, call stacks, and an interactive
+                    console.</p>
+
+
+            </div>
+            <!-- right section -->
+            <div class="left"> <img src="assets/home-debug.svg" alt="home-intellisense"> </div>
+        </div>
+
+
+        <!-- Git -->
+
+        <div class="git flex justify-center h-[24rem] items-center gap-[10rem]">
+            <!-- left section -->
+            <div class="left"> <img src="assets/home-git.svg" alt="home-intellisense"> </div>
+
+            <!-- right section -->
+            <div class="info gap-[2rem] flex flex-col">
+                <h2 class="text-[2rem] font-thin ml-[3.1rem]">Git commands built-in.</h2>
+                <p class="w-[36rem] text-[1.2rem] font-normal ml-[3.1rem] leading-[2]">Working with Git and other SCM
+                    providers has never been easier. Review diffs, stage files, and make commits right from the editor.
+                    Push and pull from any hosted SCM service.</p>
+            </div>
+        </div>
+
+        <!-- Extensions -->
+        <div class="extensions flex justify-center h-[24rem] items-center gap-[10rem] bg-[#F5F5F5]">
+            <!-- left section -->
+            <div class="info gap-[2rem] flex flex-col">
+                <h2 class="text-[2rem] font-thin ml-[3.1rem]">Extensible and customizable.</h2>
+                <p class="w-[36rem] text-[1.2rem] font-normal ml-[3.1rem] leading-[2]">Want even more features? Install
+                    extensions to add new languages, themes, debuggers, and to connect to additional services.
+                    Extensions run in separate processes, ensuring they won't slow down your editor. <a
+                        class="text-[#6F9FBF]"
+                        href="https://code.visualstudio.com/docs/editor/extension-marketplace">Learn more about
+                        extensions.</a> </p>
+
+
+            </div>
+            <!-- right section -->
+            <div class="left"> <img class="h-[15rem]" src="assets/Hundreds-of-Extensions.png" alt="home-intellisense">
+            </div>
+        </div>
+        <!-- Azure -->
+        <div class="azure flex justify-center h-[24rem] items-center gap-[10rem]">
+            <!-- left section -->
+            <div class="left"> <img src="assets/home-azure.svg" alt="home-azure"> </div>
+
+            <!-- right section -->
+            <div class="info gap-[2rem] flex flex-col">
+                <h2 class="text-[2rem] font-thin ml-[3.1rem]">Deploy with confidence and ease</h2>
+                <p class="w-[36rem] text-[1.2rem] font-normal ml-[3.1rem] leading-[2]">With <a class="text-[#4484AF]"
+                        href="https://azure.microsoft.com/"> Microsoft Azure </a> you can
+                    deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational
+                    and document based data, and scale with serverless computing, all with ease, <a
+                        class="text-[#4484AF]" href="https://code.visualstudio.com/docs/azure/extensions"> all from
+                        within VS Code</a>.</p>
+            </div>
+        </div>
+        <!-- Language support -->
+
+        <div class="lang h-[24rem] bg-[#F5F5F5] flex justify-center">
+            <div class="flex justify-center items-center flex-col gap-y-[2rem]">
+
+                <div class="flex w-[24rem] justify-center text-[2rem] font-[300]">
+                    <h2>VS Code for</h2>
+                </div>
+
+                <div class="lang-support flex  flex-wrap w-[48rem]">
+
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex"><img src="assets/language-support/javascript.svg" alt="javascript-icon">
+                            JavaScript</p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/python.svg" alt="python">
+                            Python</p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/java.svg" alt="java-icon">
+                            Java</p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/markdown.svg" alt="javascript-icon">
+                            Markdown
+                        </p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/typescript.svg" alt="javascript-icon">
+                            TypeScript</p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/cpp.svg" alt="C/C++"> C/C++
+                        </p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/json.svg" alt="json"> JSON
+                        </p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/powershell.svg" alt="powershell">
+                            Powershell
+                        </p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/html.svg" alt="html-icon">
+                            HTML/CSS
+                        </p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/csharp.svg" alt="html-icon">
+                            C#
+                        </p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/php.svg" alt="php-icon"> PHP
+                        </p>
+                    </div>
+                    <div class="flex w-[8rem] h-[3rem] justify-start items-center">
+                        <p class="flex  "><img src="assets/language-support/yaml.svg" alt="yaml-icon">
+                            YAML</p>
+                    </div>
+
+                </div>
+                <a class="text-[#005893] text-[1.2rem]"
+                    href="https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Installs">and
+                    many more languages on the Marketplace...</a>
+
+                <div>
+                    <button class="bg-[#0066B8] text-[#ffffff] font-semibold w-[12rem] h-[3.2rem] text-[1.2rem]">Get
+                        Started
+                        Now</button>
+                </div>
+            </div>
+        </div>
 
 
 
