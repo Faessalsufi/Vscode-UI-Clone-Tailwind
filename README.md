@@ -3,7 +3,7 @@
 This is a clone of the [Visual Studio Code](https://code.visualstudio.com/) website's front page design built with HTML, CSS and the Tailwind CSS CDN for Educational purpose only.
 
 ## Live Link
-https://taupe-mousse-577423.netlify.app
+https://vscode-clone.netlify.app
 
 
 ## About This Project
