@@ -2,7 +2,7 @@ Here is a README.md file tailored for your Visual Studio Code website clone proj
 
 # VS Code Website Clone 
 
-This is a clone of the [Visual Studio Code](https://code.visualstudio.com/) website's front page design built with HTML, CSS and the Tailwind CSS CDN.
+This is a clone of the [Visual Studio Code](https://code.visualstudio.com/) website's front page design built with HTML, CSS and the Tailwind CSS CDN for Educational purpose only.
 
 ## About This Project
 
@@ -42,17 +42,8 @@ The output/ directory contains output screenshots of the website:
 
 ### Full Screen
 
-<img src="output/full-screen-output.png" alt="Screenshot" width="600">
+![full-screen-output](https://github.com/Faessalsufi/Vscode-UI-Clone-Tailwind/assets/121938614/7d2022e3-00e4-4cdc-9675-c911416ba5b3)
 
-### Output
-
-<img src="output/1 (1).png" alt="Desktop Screenshot" width="500"> 
-
-<img src="output/1 (2).png" alt="Desktop Screenshot" width="500"> 
-<img src="output/1 (3).png" alt="Desktop Screenshot" width="500"> 
-<img src="output/1 (4).png" alt="Desktop Screenshot" width="500"> 
-<img src="output/1 (5).png" alt="Desktop Screenshot" width="500"> 
-<img src="output/1 (6).png" alt="Desktop Screenshot" width="500"> 
 
 
 ## Credits
